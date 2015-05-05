@@ -65,7 +65,8 @@ MAIN
     border-top-color: #cacaca;
     position: absolute;
     right: 0;
-    top: -5px;
+    margin-right: 8px;
+    top: -4px;
 }
 
 .authors img {
