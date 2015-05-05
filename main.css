@@ -1,18 +1,49 @@
+
+/************
+General
+************/
+
 ul {
     list-style: none;
 }
+
+/************
+MAIN
+************/
+
 
 .octodex {
 
 }
 
-.octocat img {
-    height: 350px;
+.octocat {
     float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+
 }
 
-.authors img {
-    height: 30px;
-    border-radius: 5px;
+.octocat img {
+    height: 380px;
+    border: 1px solid #d6d6d6;
+    border-radius: 3px;
+}
 
+.image-footer {
+
+}
+
+
+
+.authors img {
+    position: absolute;
+/*    right: 0;*/
+    height: 25px;
+    border-radius: 5px;
+    /*float: right;*/
+
+}
+
+.image-caption {
+    float: right;
 }
