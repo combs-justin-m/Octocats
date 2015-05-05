@@ -1,0 +1,18 @@
+ul {
+    list-style: none;
+}
+
+.octodex {
+
+}
+
+.octocat img {
+    height: 350px;
+    float: left;
+}
+
+.authors img {
+    height: 30px;
+    border-radius: 5px;
+
+}
