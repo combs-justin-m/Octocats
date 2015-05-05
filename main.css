@@ -51,10 +51,22 @@ MAIN
 }
 
 .image-footer {
+    position: relative;
     padding: 15px 0;
     border-bottom: 1px solid #cbcbca;
 }
 
+.image-footer::before {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-top-color: #cacaca;
+    position: absolute;
+    right: 0;
+    top: -5px;
+}
 
 .authors img {
     position: relative;
