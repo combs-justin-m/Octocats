@@ -30,20 +30,23 @@ MAIN
 }
 
 .image-footer {
-
+    padding: 15px 0;
+    border-bottom: 1px solid #d6d6d6;
 }
-
 
 
 .authors img {
-    position: absolute;
-/*    right: 0;*/
     height: 25px;
     border-radius: 5px;
-    /*float: right;*/
-
 }
 
+
 .image-caption {
+    display: inline;
+    float: right;
+}
+
+.authors {
+    display: inline;
     float: right;
 }
