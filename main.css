@@ -7,6 +7,11 @@ ul {
     list-style: none;
 }
 
+body {
+    font-size: 1em;
+    font-family: Helvetica;
+}
+
 /************
 MAIN
 ************/
@@ -24,9 +29,13 @@ MAIN
 }
 
 .octocat img {
-    height: 380px;
+    height: 440px;
     border: 1px solid #d6d6d6;
     border-radius: 3px;
+}
+
+.octocat:nth-child(3) {
+    margin-right: 0;
 }
 
 .image-footer {
@@ -36,7 +45,9 @@ MAIN
 
 
 .authors img {
-    height: 25px;
+    position: relative;
+    top: -8px;
+    height: 30px;
     border-radius: 5px;
 }
 
